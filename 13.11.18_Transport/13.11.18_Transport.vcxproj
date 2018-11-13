@@ -115,8 +115,23 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AirBalloon.h" />
     <ClInclude Include="AirVehicle.h" />
+    <ClInclude Include="Bike.h" />
+    <ClInclude Include="Boat.h" />
+    <ClInclude Include="Bus.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="EngineAirVehicle.h" />
+    <ClInclude Include="GroudVehicle.h" />
+    <ClInclude Include="Helicopter.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="Rocket.h" />
+    <ClInclude Include="SpaceVehicle.h" />
+    <ClInclude Include="Tank.h" />
     <ClInclude Include="Vehicle.h" />
+    <ClInclude Include="WaterWehicle.h" />
+    <ClInclude Include="Wing.h" />
+    <ClInclude Include="Yacht.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />

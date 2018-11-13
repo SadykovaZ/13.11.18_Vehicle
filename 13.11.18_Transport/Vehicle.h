@@ -4,7 +4,7 @@
 using namespace std;
 class Vehicle
 {
-protected:
+private:
 	unsigned int maxSpeed;
 	string color;
 	unsigned int cntPassengers;
@@ -15,9 +15,21 @@ public:
 	Vehicle(unsigned int maxSpeed = 0, string color = "black", unsigned int cntPasseng = 0, string model = "model", bool hasEngine = 1);
 	void fill()
 	{
-		cout << "Max speed";
+		cout << "Enter max speed of vehicle: ";
 		cin >> maxSpeed;
+		cout << "Enter color of vehicle: ";
+		cin >> color;
+		cout << "Enter number of passengers, which vehicle can afford: ";
+		cin >> cntPassengers;
+		cout << "Enter model of vehicle: ";
+		cin >> model;
+		cout << "Is vehicle has an engine: (1-yes, 0-no): ";
+		cin >> hasEngine;
 		setMaxSpeed(maxSpeed);
+		setColor(color);
+		setCntPassengers(cntPassengers);
+		setModel(model);
+		setHasEngine(hasEngine);
 	}
 	void setMaxSpeed(unsigned int maxSpeed) 
 	{ 		
