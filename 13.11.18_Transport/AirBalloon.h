@@ -16,7 +16,7 @@ public:
 		this->volume = volume;
 	}
 	unsigned int getVolume() const { return volume; }
-	void info()
+	void info() const
 	{
 		AirVehicle::info();
 		cout << "Volume of air balloon = " << getVolume() << endl;

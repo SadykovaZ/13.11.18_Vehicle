@@ -16,7 +16,7 @@ public:
 	{
 		return liftingForce;
 	}
-	void info()
+	void info() const
 	{
 		cout << "Lifting force of the plane wing = " << getLiftingForce() << endl;
 	}

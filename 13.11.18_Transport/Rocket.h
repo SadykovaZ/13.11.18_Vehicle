@@ -4,7 +4,7 @@ class Rocket:public SpaceVehicle
 {
 public:
 	Rocket() :SpaceVehicle() {}
-	void info()
+	void info() const
 	{
 		SpaceVehicle::info();
 	}

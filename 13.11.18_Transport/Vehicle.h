@@ -49,7 +49,7 @@ public:
 	void setHasEngine(bool hasEngine) { this->hasEngine = hasEngine; }
 	bool getHasEngine() const { return hasEngine; }
 	
-	void info()
+	void info() const
 	{
 		cout << "Max speed = "<< getMaxSpeed() << endl;
 		cout << "Color = " << getColor() << endl;

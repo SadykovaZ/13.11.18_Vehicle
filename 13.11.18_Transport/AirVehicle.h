@@ -27,7 +27,7 @@ public:
 	}
 	unsigned int getAltitude() const { return altitude; }
 	
-	void info()
+	void info() const
 	{
 		Vehicle::info();
 		cout << "Altitude = " << getAltitude() << endl;

@@ -20,7 +20,7 @@ public:
 		this->type = type;
 	}
 	string getTypeCar() const { return type; }
-	void info()
+	void info() const
 	{
 		GroudVehicle::info();
 		cout << "Type of the car = " << getTypeCar() << endl;

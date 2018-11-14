@@ -27,7 +27,7 @@ public:
 	}
 	string getFuelType() const { return fuelType; }
 
-	void info()
+	void info() const
 	{
 		Vehicle::info();
 		cout << "Fuel type of rocket = " << getFuelType() << endl;

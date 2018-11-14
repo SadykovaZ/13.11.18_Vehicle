@@ -16,7 +16,7 @@ public:
 		this->power = power;
 	}
 	unsigned int getTankPower() const { return power; }
-	void info()
+	void info() const
 	{
 		Car::info();
 		cout << "Power of tank = " << getTankPower() << endl;

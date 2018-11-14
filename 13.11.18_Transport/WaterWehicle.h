@@ -27,7 +27,7 @@ public:
 	}
 	unsigned int getDisplacement() const { return displacement; }
 
-	void info()
+	void info() const
 	{
 		Vehicle::info();
 		cout << "Displacement of water vehicle = " << getDisplacement() << endl;

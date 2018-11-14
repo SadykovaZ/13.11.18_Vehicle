@@ -20,7 +20,7 @@ public:
 		this->enginePower = enginePower;
 	}
 	unsigned int getEnginePower() const { return enginePower; }
-	void info()
+	void info() const
 	{
 		AirVehicle::info();
 		cout << "Engine power of vehicle = " << getEnginePower() << endl;

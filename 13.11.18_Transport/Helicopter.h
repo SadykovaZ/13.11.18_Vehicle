@@ -16,7 +16,7 @@ public:
 		this->bladeSize = bladeSize;
 	}
 	unsigned int getBladeSize() const { return bladeSize; }
-	void info()
+	void info() const
 	{
 		EngineAirVehicle::info();
 		cout << "Blade size of helicopter = " << getBladeSize() << endl;

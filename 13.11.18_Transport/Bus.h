@@ -4,7 +4,7 @@ class Bus:public Car
 {
 public:
 	Bus() :Car() {}
-	void info()
+	void info() const
 	{
 		Car::info();
 	}

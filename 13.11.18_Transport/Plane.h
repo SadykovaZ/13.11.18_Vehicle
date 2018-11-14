@@ -11,7 +11,7 @@ public:
 	{
 		w.setLiftingForce(lForce);
 	}
-	void info()
+	void info() const
 	{
 		EngineAirVehicle::info();
 		w.info();

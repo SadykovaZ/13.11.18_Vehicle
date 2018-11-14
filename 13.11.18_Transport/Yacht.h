@@ -15,7 +15,7 @@ public:
 		this->cntDecks = cntDecks;
 	}
 	unsigned int getDecks() const { return cntDecks; }
-	void info()
+	void info() const
 	{
 		Boat::info();
 		cout << "Number of decks in yacht = " << getDecks() << endl;

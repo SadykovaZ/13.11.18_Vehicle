@@ -27,7 +27,7 @@ public:
 	}
 	unsigned int getCntWheels() const { return cntWheels; }
 
-	void info()
+	void info() const
 	{
 		Vehicle::info();
 		cout << "Number of wheels = " << getCntWheels() << endl;
